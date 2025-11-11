@@ -1,0 +1,17 @@
+.game-container {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.circle {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: gray;
+  border-radius: 50%;
+  cursor: url("../img/molot.png") 0 10,auto;
+  
+}
